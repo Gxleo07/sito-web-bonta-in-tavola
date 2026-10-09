@@ -2,4 +2,5 @@
   package = "@netlify/plugin-sitemap"
 
   [plugins.inputs]
+    baseUrl = "https://bontaintavola.netlify.app"
     buildDir = "."
