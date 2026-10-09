@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bontà In Tavola da Cristian – Macelleria Gastronomia Brescia</title>
+  <meta name="description" content="Macelleria e gastronomia artigianale a Brescia. Carne fresca, salumi, gastronomia preparata con passione. Viale del Piave 163, Brescia." />
+  <meta name="keywords" content="macelleria brescia, gastronomia brescia, carne fresca, salumi, bontà in tavola, cristian" />
+  <!-- Preload immagini Hero critiche -->
+  <link rel="preload" as="image" href="negozio-interni.jpg" />
+  <link rel="preload" as="image" href="bonta-in-tavola-text.png" />
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <div class="nav-brand-wrap">
+          <img src="bonta-in-tavola-text.png" alt="Bontà In Tavola" class="nav-brand-text-img" />
+          <span class="gold-text">da Cristian</span>
+        </div>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <div class="nav-mobile-header">
+          <span class="gold-text">Menu</span>
+          <button class="nav-mobile-close" id="navMobileClose" aria-label="Chiudi Menu">&times;</button>
+        </div>
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#chi-siamo" class="nav-link">Chi Siamo</a>
+        <a href="#negozio" class="nav-link">Il Nostro Negozio</a>
+        <a href="#gastronomia" class="nav-link">La Gastronomia</a>
+        <a href="#recensioni" class="nav-link">Recensioni</a>
+        <a href="#contatti" class="nav-link">Contatti</a>
+        <div class="nav-mobile-footer">
+          <a href="https://wa.me/393339201277" target="_blank" rel="noopener noreferrer" class="nav-whatsapp-cta">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+            <span>Scrivici su WhatsApp</span>
+          </a>
+        </div>
+      </nav>
+      <div class="nav-right-actions">
+        <a href="https://wa.me/393339201277" target="_blank" rel="noopener noreferrer" class="nav-btn-call" title="Contattaci su WhatsApp: 333 920 1277">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16" aria-hidden="true"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+          <span>Chiama Qui</span>
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge">Macelleria &amp; Gastronomia Artigianale</div>
+      
+      <!-- Logo Homepage Grande -->
+      <div class="hero-logo-wrap">
+        <img src="logo-bonta.png" alt="Bontà In Tavola Logo" class="hero-logo" width="130" height="130" fetchpriority="high" />
+      </div>
+
+      <h1 class="hero-title">
+        <img src="bonta-in-tavola-text.png" alt="Bontà In Tavola" class="hero-title-img" />
+        <span class="hero-sub">da Cristian</span>
+      </h1>
+      <p class="hero-desc">Qualità, tradizione e passione dal cuore di Brescia.<br/>Ogni prodotto è scelto con cura, ogni sapore racconta una storia.</p>
+      <div class="hero-ctas">
+        <a href="#chi-siamo" class="btn btn-primary">Scopri di Noi</a>
+        <a href="#contatti" class="btn btn-outline">Vieni a Trovarci</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <div class="scroll-indicator">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHI SIAMO -->
+  <section class="chi-siamo" id="chi-siamo">
+    <!-- BANDIERA ITALIANA DIAGONALE 100% ITALIA -->
+    <div class="corner-ribbon-wrap" aria-label="100% Italia">
+      <div class="corner-ribbon">
+        <span class="ribbon-text">100% ITALIA</span>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">La Nostra Storia</div>
+        <h2 class="section-title">Chi Siamo</h2>
+        <p class="section-desc">Una passione che nasce dalla tradizione e cresce con l'esperienza</p>
+      </div>
+
+      <!-- PRIMA PARTE: Foto a sinistra, Descrizione dettagliata a destra -->
+      <div class="chi-siamo-grid grid-shop">
+        <!-- FOTO A SINISTRA -->
+        <div class="story-gallery">
+          <div class="gallery-main gold-frame-wrap">
+            <img src="negozio-interni.jpg" alt="Bontà In Tavola - Il nostro negozio" class="gallery-img main" loading="lazy" decoding="async"/>
+          </div>
+          <div class="gallery-grid">
+            <div class="gold-frame-wrap">
+              <img src="gallery-prodotti.jpg" alt="Bontà In Tavola - I nostri prodotti" class="gallery-img" loading="lazy" decoding="async"/>
+            </div>
+            <div class="gold-frame-wrap">
+              <img src="gallery-tradizione.jpg" alt="Bontà In Tavola - La tradizione" class="gallery-img" loading="lazy" decoding="async"/>
+            </div>
+          </div>
+        </div>
+
+        <!-- DESCRIZIONE DETTAGLIATA A DESTRA (TUTTA INSIEME CON LINEA ROSSA A DESTRA) -->
+        <div class="story-narrative-box">
+          <div class="story-red-line-wrapper">
+            <h3 class="narrative-title">Passione artigianale nel cuore di Brescia</h3>
+            <p class="narrative-lead">
+              <strong>Bontà In Tavola da Cristian</strong> è una macelleria e gastronomia artigianale situata a Brescia, in <strong>Viale del Piave 163</strong>. Un punto di riferimento autentico dove la passione per il territorio incontra l'eccellenza della carne e il gusto autentico delle ricette tradizionali.
+            </p>
+            <p class="narrative-text">
+              Ogni giorno portiamo avanti una missione semplice e rigorosa: selezionare solo carni di primissima qualità provenienti da filiere controllate e allevamenti attenti al benessere animale. Dai tagli freschi per il pranzo in famiglia alle preparazioni più ricercate per le grandi occasioni, curiamo ogni dettaglio, dalla frollatura ottimale alla lavorazione attenta al banco.
+            </p>
+            <p class="narrative-text">
+              La nostra gastronomia è un laboratorio continuo di sapori: piatti pronti cucinati ogni mattina, arrosti profumati, polpette nostrane, contorni di stagione e salumi stagionati con cura. Per noi ogni cliente è parte della famiglia, accolto con cordialità, consigli su misura e il massimo rispetto per la qualità alimentare.
+            </p>
+            <div class="narrative-features">
+              <div class="narrative-feature-item">
+                <span class="feature-icon">🥩</span>
+                <div>
+                  <strong>Carni Scelte</strong>
+                  <span>Filiera controllata e certificata</span>
+                </div>
+              </div>
+              <div class="narrative-feature-item">
+                <span class="feature-icon">🍲</span>
+                <div>
+                  <strong>Gastronomia Pronta</strong>
+                  <span>Cucinata fresca ogni mattina</span>
+                </div>
+              </div>
+              <div class="narrative-feature-item">
+                <span class="feature-icon">🥓</span>
+                <div>
+                  <strong>Salumi d'Eccellenza</strong>
+                  <span>Stagionature artigianali selezionate</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECONDA PARTE: Descrizione Cristian a sinistra con linea rossa, Foto Cristian a destra -->
+      <div class="chi-siamo-grid grid-owner">
+        <!-- DESCRIZIONE CRISTIAN A SINISTRA (CON LINEA ROSSA A SINISTRA) -->
+        <div class="owner-narrative-box">
+          <div class="owner-red-line-wrapper">
+            <h3 class="narrative-title">Cristian: Il cuore e l'anima di Bontà In Tavola</h3>
+            <p class="narrative-lead">
+              Dietro a ogni consiglio prezioso, a ogni taglio di carne eseguito con precisione e a ogni piatto speciale c'è la presenza instancabile di <strong>Cristian</strong>, titolare e mastro macellaio dell'azienda.
+            </p>
+            <p class="narrative-text">
+              Mastro macellaio per vocazione e gastronomo appassionato, Cristian vive il bancone della bottega come un luogo di convivialità, professionalità e fiducia reciproca. Con anni di esperienza maturata sul campo, conosce ogni sfumatura del mestiere: dal riconoscimento della marezzatura perfetta alla tecnica di disosso, fino agli abbinamenti ideali per esaltare ogni ricetta.
+            </p>
+            <p class="narrative-text">
+              Sempre presente con il suo sorriso e la passione negli occhi, Cristian accoglie ciascun cliente ascoltandone gusti ed esigenze, pronto a consigliare la cottura migliore o a preparare una portata su misura.
+            </p>
+            <blockquote class="owner-quote">
+              <p>“Questo lavoro si fa con il cuore: non c'è soddisfazione più grande che regalare ai nostri clienti un sapore indimenticabile e la certezza di portare a tavola solo il meglio.”</p>
+              <cite>— Cristian, Titolare di Bontà In Tavola</cite>
+            </blockquote>
+          </div>
+        </div>
+
+        <!-- FOTO CRISTIAN A DESTRA -->
+        <div class="owner-photo-wrap">
+          <div class="gold-frame-wrap owner-frame">
+            <img src="cristian-titolare.jpg" alt="Cristian - Titolare di Bontà In Tavola" class="gallery-img owner-img" loading="lazy"/>
+            <div class="owner-badge-overlay">
+              <span class="owner-name">Cristian</span>
+              <span class="owner-role">Titolare &amp; Mastro Macellaio</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       IL NOSTRO NEGOZIO — BACHECA con Salame Laterale + Card Flip
+       ============================================================ -->
+  <section class="servizi" id="negozio">
+
+    <!-- SALAME CHE SCENDE A SINISTRA -->
+    <div class="salame-laterale sinistro" aria-hidden="true">
+      <svg class="salame-svg-grande" viewBox="0 0 120 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="sgBody1" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#ab3022"/>
+            <stop offset="30%" stop-color="#8a1f14"/>
+            <stop offset="70%" stop-color="#69120a"/>
+            <stop offset="100%" stop-color="#470702"/>
+          </linearGradient>
+          <radialGradient id="sgMold1" cx="40%" cy="30%" r="70%">
+            <stop offset="0%" stop-color="#fdfdfd" stop-opacity="0.45"/>
+            <stop offset="50%" stop-color="#e8e5dc" stop-opacity="0.25"/>
+            <stop offset="100%" stop-color="#ab9e8a" stop-opacity="0"/>
+          </radialGradient>
+          <linearGradient id="sgGloss1" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
+            <stop offset="15%" stop-color="#ffffff" stop-opacity="0.08"/>
+            <stop offset="50%" stop-color="#ffffff" stop-opacity="0"/>
+            <stop offset="85%" stop-color="#000000" stop-opacity="0.15"/>
+            <stop offset="100%" stop-color="#000000" stop-opacity="0.38"/>
+          </linearGradient>
+        </defs>
+        <!-- Corda di canapa -->
+        <path d="M60 5 C60 5, 62 25, 60 45" stroke="#87683b" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+        <path d="M60 5 C60 5, 58 25, 60 45" stroke="#cca46b" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.6"/>
+        <!-- Gancio in metallo lucido -->
+        <path d="M52 5 Q65 1 72 12 Q78 22 70 32" stroke="#cca46b" stroke-width="5" stroke-linecap="round" fill="none"/>
+        <path d="M52 5 Q65 1 72 12 Q78 22 70 32" stroke="#fff" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5"/>
+
+        <!-- Nodo dello spago in alto -->
+        <circle cx="60" cy="45" r="6" fill="#69512d"/>
+        <circle cx="60" cy="45" r="4.5" fill="#87683b"/>
+
+        <!-- Corpo del Salame (irregolare) -->
+        <path d="M60 50 C88 50, 96 75, 96 110 L96 290 C96 325, 88 350, 60 350 C32 350, 24 325, 24 290 L24 110 C24 75, 32 50, 60 50 Z" fill="url(#sgBody1)"/>
+        
+        <!-- Sfumatura muffa superficiale -->
+        <path d="M60 50 C88 50, 96 75, 96 110 L96 290 C96 325, 88 350, 60 350 C32 350, 24 325, 24 290 L24 110 C24 75, 32 50, 60 50 Z" fill="url(#sgMold1)"/>
+
+        <!-- Macchie bianche di muffa per un look autentico -->
+        <ellipse cx="42" cy="115" rx="14" ry="24" fill="#fdfbf7" opacity="0.35" filter="blur(3px)"/>
+        <ellipse cx="78" cy="185" rx="12" ry="28" fill="#f4f1e6" opacity="0.4" filter="blur(3px)"/>
+        <ellipse cx="46" cy="245" rx="15" ry="32" fill="#fdfbf7" opacity="0.38" filter="blur(2.5px)"/>
+        <ellipse cx="72" cy="95" rx="9" ry="16" fill="#eae6d8" opacity="0.3" filter="blur(2px)"/>
+        <ellipse cx="38" cy="295" rx="11" ry="20" fill="#eae6d8" opacity="0.35" filter="blur(3px)"/>
+
+        <!-- Legatura a rete diagonale (salame stagionato artigianale) -->
+        <!-- Diagonali / -->
+        <path d="M28 90 Q60 110 92 130" stroke="#87683b" stroke-width="2.5" fill="none" opacity="0.75"/>
+        <path d="M24 140 Q60 160 96 180" stroke="#87683b" stroke-width="2.5" fill="none" opacity="0.75"/>
+        <path d="M24 190 Q60 210 96 230" stroke="#87683b" stroke-width="2.5" fill="none" opacity="0.75"/>
+        <path d="M24 240 Q60 260 96 280" stroke="#87683b" stroke-width="2.5" fill="none" opacity="0.75"/>
+        <path d="M28 290 Q60 310 92 330" stroke="#87683b" stroke-width="2.5" fill="none" opacity="0.75"/>
+
+        <!-- Diagonali \ -->
+        <path d="M92 90 Q60 110 28 130" stroke="#87683b" stroke-width="2.5" fill="none" opacity="0.75"/>
+        <path d="M96 140 Q60 160 24 180" stroke="#87683b" stroke-width="2.5" fill="none" opacity="0.75"/>
+        <path d="M96 190 Q60 210 24 230" stroke="#87683b" stroke-width="2.5" fill="none" opacity="0.75"/>
+        <path d="M96 240 Q60 260 24 280" stroke="#87683b" stroke-width="2.5" fill="none" opacity="0.75"/>
+        <path d="M92 290 Q60 310 28 330" stroke="#87683b" stroke-width="2.5" fill="none" opacity="0.75"/>
+
+        <!-- Spago centrale verticale che stringe i nodi -->
+        <path d="M60 45 L60 355" stroke="#69512d" stroke-width="3" fill="none" opacity="0.8"/>
+        <!-- Nodi orizzontali di raccordo -->
+        <path d="M24 110 Q60 115 96 110" stroke="#69512d" stroke-width="2.2" fill="none" opacity="0.6"/>
+        <path d="M24 210 Q60 215 96 210" stroke="#69512d" stroke-width="2.2" fill="none" opacity="0.6"/>
+        <path d="M24 310 Q60 315 96 310" stroke="#69512d" stroke-width="2.2" fill="none" opacity="0.6"/>
+
+        <!-- Ombreggiatura cilindrica 3D -->
+        <path d="M60 50 C88 50, 96 75, 96 110 L96 290 C96 325, 88 350, 60 350 C32 350, 24 325, 24 290 L24 110 C24 75, 32 50, 60 50 Z" fill="url(#sgGloss1)"/>
+
+        <!-- Chiusura spago inferiore -->
+        <circle cx="60" cy="350" r="6" fill="#69512d"/>
+        <circle cx="60" cy="350" r="4.5" fill="#87683b"/>
+        <path d="M60 350 C60 350, 58 368, 55 375" stroke="#87683b" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+      </svg>
+    </div>
+
+    <!-- SALAME CHE SCENDE A DESTRA -->
+    <div class="salame-laterale destro" aria-hidden="true">
+      <svg class="salame-svg-grande" style="animation-delay: -2.3s;" viewBox="0 0 120 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="sgBody2" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#ab3022"/>
+            <stop offset="30%" stop-color="#8a1f14"/>
+            <stop offset="70%" stop-color="#69120a"/>
+            <stop offset="100%" stop-color="#470702"/>
+          </linearGradient>
+          <radialGradient id="sgMold2" cx="35%" cy="35%" r="70%">
+            <stop offset="0%" stop-color="#fdfdfd" stop-opacity="0.45"/>
+            <stop offset="50%" stop-color="#e8e5dc" stop-opacity="0.25"/>
+            <stop offset="100%" stop-color="#ab9e8a" stop-opacity="0"/>
+          </radialGradient>
+          <linearGradient id="sgGloss2" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
+            <stop offset="15%" stop-color="#ffffff" stop-opacity="0.08"/>
+            <stop offset="50%" stop-color="#ffffff" stop-opacity="0"/>
+            <stop offset="85%" stop-color="#000000" stop-opacity="0.15"/>
+            <stop offset="100%" stop-color="#000000" stop-opacity="0.38"/>
+          </linearGradient>
+        </defs>
+        <!-- Corda di canapa -->
+        <path d="M60 5 C60 5, 62 25, 60 45" stroke="#87683b" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+        <path d="M60 5 C60 5, 58 25, 60 45" stroke="#cca46b" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.6"/>
+        <!-- Gancio in metallo lucido -->
+        <path d="M52 5 Q65 1 72 12 Q78 22 70 32" stroke="#cca46b" stroke-width="5" stroke-linecap="round" fill="none"/>
+        <path d="M52 5 Q65 1 72 12 Q78 22 70 32" stroke="#fff" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5"/>
+
+        <!-- Nodo dello spago in alto -->
+        <circle cx="60" cy="45" r="6" fill="#69512d"/>
+        <circle cx="60" cy="45" r="4.5" fill="#87683b"/>
+
+        <!-- Corpo del Salame (irregolare) -->
+        <path d="M60 50 C88 50, 96 75, 96 110 L96 290 C96 325, 88 350, 60 350 C32 350, 24 325, 24 290 L24 110 C24 75, 32 50, 60 50 Z" fill="url(#sgBody2)"/>
+        
+        <!-- Sfumatura muffa superficiale -->
+        <path d="M60 50 C88 50, 96 75, 96 110 L96 290 C96 325, 88 350, 60 350 C32 350, 24 325, 24 290 L24 110 C24 75, 32 50, 60 50 Z" fill="url(#sgMold2)"/>
+
+        <!-- Macchie bianche di muffa per un look autentico -->
+        <ellipse cx="44" cy="130" rx="12" ry="22" fill="#fdfbf7" opacity="0.32" filter="blur(2.5px)"/>
+        <ellipse cx="74" cy="200" rx="14" ry="30" fill="#f4f1e6" opacity="0.38" filter="blur(3px)"/>
+        <ellipse cx="40" cy="260" rx="13" ry="28" fill="#fdfbf7" opacity="0.35" filter="blur(3px)"/>
+        <ellipse cx="78" cy="110" rx="10" ry="18" fill="#eae6d8" opacity="0.3" filter="blur(2px)"/>
+        <ellipse cx="42" cy="70" rx="8" ry="12" fill="#eae6d8" opacity="0.25" filter="blur(2px)"/>
+
+        <!-- Legatura a rete diagonale (salame stagionato artigianale) -->
+        <!-- Diagonali / -->
+        <path d="M28 90 Q60 110 92 130" stroke="#87683b" stroke-width="2.5" fill="none" opacity="0.75"/>
+        <path d="M24 140 Q60 160 96 180" stroke="#87683b" stroke-width="2.5" fill="none" opacity="0.75"/>
+        <path d="M24 190 Q60 210 96 230" stroke="#87683b" stroke-width="2.5" fill="none" opacity="0.75"/>
+        <path d="M24 240 Q60 260 96 280" stroke="#87683b" stroke-width="2.5" fill="none" opacity="0.75"/>
+        <path d="M28 290 Q60 310 92 330" stroke="#87683b" stroke-width="2.5" fill="none" opacity="0.75"/>
+
+        <!-- Diagonali \ -->
+        <path d="M92 90 Q60 110 28 130" stroke="#87683b" stroke-width="2.5" fill="none" opacity="0.75"/>
+        <path d="M96 140 Q60 160 24 180" stroke="#87683b" stroke-width="2.5" fill="none" opacity="0.75"/>
+        <path d="M96 190 Q60 210 24 230" stroke="#87683b" stroke-width="2.5" fill="none" opacity="0.75"/>
+        <path d="M96 240 Q60 260 24 280" stroke="#87683b" stroke-width="2.5" fill="none" opacity="0.75"/>
+        <path d="M92 290 Q60 310 28 330" stroke="#87683b" stroke-width="2.5" fill="none" opacity="0.75"/>
+
+        <!-- Spago centrale verticale che stringe i nodi -->
+        <path d="M60 45 L60 355" stroke="#69512d" stroke-width="3" fill="none" opacity="0.8"/>
+        <!-- Nodi orizzontali di raccordo -->
+        <path d="M24 110 Q60 115 96 110" stroke="#69512d" stroke-width="2.2" fill="none" opacity="0.6"/>
+        <path d="M24 210 Q60 215 96 210" stroke="#69512d" stroke-width="2.2" fill="none" opacity="0.6"/>
+        <path d="M24 310 Q60 315 96 310" stroke="#69512d" stroke-width="2.2" fill="none" opacity="0.6"/>
+
+        <!-- Ombreggiatura cilindrica 3D -->
+        <path d="M60 50 C88 50, 96 75, 96 110 L96 290 C96 325, 88 350, 60 350 C32 350, 24 325, 24 290 L24 110 C24 75, 32 50, 60 50 Z" fill="url(#sgGloss2)"/>
+
+        <!-- Chiusura spago inferiore -->
+        <circle cx="60" cy="350" r="6" fill="#69512d"/>
+        <circle cx="60" cy="350" r="4.5" fill="#87683b"/>
+        <path d="M60 350 C60 350, 58 368, 55 375" stroke="#87683b" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+      </svg>
+    </div>
+
+    <div class="container">
+      <div class="section-header light">
+        <div class="section-tag light">Cosa Offriamo</div>
+        <h2 class="section-title">Il Nostro Negozio</h2>
+      </div>
+
+      <!-- BACHECA DEL NEGOZIO (3 SOPRA - 3 SOTTO) -->
+      <div class="bacheca">
+
+        <!-- CARD 1: Macelleria e Carni Scelte -->
+        <div class="negozio-card">
+          <div class="pushpin" style="--pin-color:#c0392b"></div>
+          <div class="negozio-card-img-wrap">
+            <img src="negozio-carne.jpg" alt="Macelleria e Carni Scelte a Brescia" class="negozio-card-img" loading="lazy"/>
+            <span class="negozio-badge">🥩 Carni Scelte</span>
+          </div>
+          <div class="negozio-card-body">
+            <h3 class="negozio-card-title">Macelleria &amp; Carni Scelte</h3>
+            <p class="negozio-card-desc">
+              Il cuore del nostro negozio: tagli freschissimi di vitello, manzo e suino attentamente selezionati da allevamenti certificati. Dagli ossi buchi al magatello, dalla spalla agli arrotolati, dalla lonza alle costine, ogni taglio è lavorato artigianalmente al banco per assicurare morbidezza e sapore eccellente.
+            </p>
+            <ul class="negozio-card-points">
+              <li><span>✦</span> Tagli pregiati di vitello, manzo e suino</li>
+              <li><span>✦</span> Lavorazione e disosso artigianale al banco</li>
+              <li><span>✦</span> Consigli personalizzati per ogni cottura</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- CARD 2: Pronto Cuoci e Gastronomia -->
+        <div class="negozio-card">
+          <div class="pushpin" style="--pin-color:#e67e22"></div>
+          <div class="negozio-card-img-wrap">
+            <img src="negozio-prontocuoci.jpg" alt="Pronto Cuoci e Gastronomia Artigianale" class="negozio-card-img" loading="lazy"/>
+            <span class="negozio-badge">👨‍🍳 Pronto Cuoci</span>
+          </div>
+          <div class="negozio-card-body">
+            <h3 class="negozio-card-title">Pronto Cuoci &amp; Gastronomia</h3>
+            <p class="negozio-card-desc">
+              Specialità gourmet preparate fresche ogni giorno per unire comodità e altissima qualità: tartare di carne battuta al coltello, hamburger artigianali fatti a mano, spiedini con peperoni, polpette della tradizione, braciole marinate al rosmarino e arrosti pronti da infornare.
+            </p>
+            <ul class="negozio-card-points">
+              <li><span>✦</span> Tartare fresca e battuta al coltello</li>
+              <li><span>✦</span> Hamburger artigianali (ogni 5, il 6° omaggio)</li>
+              <li><span>✦</span> Spiedini misti, polpette e arrosti ripieni</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- CARD 3: Formaggi Tipici & Latticini -->
+        <div class="negozio-card">
+          <div class="pushpin" style="--pin-color:#f1c40f"></div>
+          <div class="negozio-card-img-wrap">
+            <img src="negozio-formaggi.jpg" alt="Formaggi Tipici e Latticini Freschi da Banco" class="negozio-card-img" loading="lazy"/>
+            <span class="negozio-badge">🧀 Selezione Formaggi</span>
+          </div>
+          <div class="negozio-card-body">
+            <h3 class="negozio-card-title">Formaggi Tipici &amp; Latticini</h3>
+            <p class="negozio-card-desc">
+              Il meglio dell'arte casearia bresciana e nazionale: formaggelle nostrane e della Valtrompia, Taleggio d'alpeggio, stracchino a latte crudo, formaggi di capra e specialità erborinate. Trovi inoltre freschissime stracciatelle, burrate e mozzarelle d'arrivo giornaliero.
+            </p>
+            <ul class="negozio-card-points">
+              <li><span>✦</span> Formaggella della Valtrompia e nostrana</li>
+              <li><span>✦</span> Taleggio, stracchino e selezioni di capra</li>
+              <li><span>✦</span> Burrate, stracciatelle e mozzarelle fresche</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- CARD 4: Pane Fresco e Prodotti da Forno -->
+        <div class="negozio-card">
+          <div class="pushpin" style="--pin-color:#d35400"></div>
+          <div class="negozio-card-img-wrap">
+            <img src="negozio-pane.jpg" alt="Pane Fresco e Prodotti da Forno" class="negozio-card-img" loading="lazy"/>
+            <span class="negozio-badge">🥖 Panetteria</span>
+          </div>
+          <div class="negozio-card-body">
+            <h3 class="negozio-card-title">Pane Fresco &amp; Forno</h3>
+            <p class="negozio-card-desc">
+              Il profumo accogliente del pane fresco ogni mattina: pagnotte rustiche, panini all'olio, ciabatte croccanti, focacce morbide e sfiziose pizzette rosse. Completano l'offerta i nostri grissini artigianali, i taralli pugliesi e snack salati ideali per accompagnare taglieri e aperitivi.
+            </p>
+            <ul class="negozio-card-points">
+              <li><span>✦</span> Pane fresco di giornata e panini speciali</li>
+              <li><span>✦</span> Focacce tradizionali e pizzette da forno</li>
+              <li><span>✦</span> Grissini artigianali, taralli e snack salati</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- CARD 5: Frutta e Verdura di Stagione -->
+        <div class="negozio-card">
+          <div class="pushpin" style="--pin-color:#27ae60"></div>
+          <div class="negozio-card-img-wrap">
+            <img src="negozio-ortofrutta.jpg" alt="Frutta e Verdura Fresca di Stagione" class="negozio-card-img" loading="lazy"/>
+            <span class="negozio-badge">🍅 Ortofrutta</span>
+          </div>
+          <div class="negozio-card-body">
+            <h3 class="negozio-card-title">Frutta &amp; Verdura di Stagione</h3>
+            <p class="negozio-card-desc">
+              Un banco ortofrutticolo sempre fornito di colori e freschezza: pomodori cuore di bue e ciliegini succosi, peperoni dolci, zucchine, melanzane, uva da tavola, pesche profumate e agrumi selezionati. Tutto il necessario per portare in tavola contorni sani e genuini con la massima freschezza.
+            </p>
+            <ul class="negozio-card-points">
+              <li><span>✦</span> Arrivi giornalieri da produttori di fiducia</li>
+              <li><span>✦</span> Solo prodotti freschi e al giusto grado di maturazione</li>
+              <li><span>✦</span> Il contorno ideale per i tuoi piatti di carne</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- CARD 6: Cantina Vini, Grappe e Confezioni -->
+        <div class="negozio-card">
+          <div class="pushpin" style="--pin-color:#8e44ad"></div>
+          <div class="negozio-card-img-wrap">
+            <img src="negozio-cantina.jpg" alt="Cantina Vini, Grappe e Confezioni Regalo" class="negozio-card-img" loading="lazy"/>
+            <span class="negozio-badge">🍷 Cantina &amp; Regali</span>
+          </div>
+          <div class="negozio-card-body">
+            <h3 class="negozio-card-title">Cantina, Grappe &amp; Confezioni</h3>
+            <p class="negozio-card-desc">
+              Una selezione accurata di etichette vinicole del territorio e italiane, grappe artigianali, distillati e conserve tipiche sott'olio. Creiamo su richiesta ceste enogastronomiche e confezioni regalo con le borse esclusive "Bontà in Tavola da Cristian", perfette per un pensiero di classe e gusto.
+            </p>
+            <ul class="negozio-card-points">
+              <li><span>✦</span> Vini selezionati e bollicine per ogni piatto</li>
+              <li><span>✦</span> Grappe e amari artigianali da meditazione</li>
+              <li><span>✦</span> Ceste regalo ed esclusive shopper del negozio</li>
+            </ul>
+          </div>
+        </div>
+
+      </div><!-- /bacheca -->
+    </div><!-- /container -->
+  </section>
+
+  <!-- LA GASTRONOMIA -->
+  <section class="gastronomia" id="gastronomia">
+    <!-- BANNER PANORAMICO A TUTTO SCHERMO CHE TOCCA I BORDI A SINISTRA E A DESTRA -->
+    <div class="gastronomia-full-banner">
+      <img src="gastronomia-banco-1.jpg" alt="Banco Gastronomia Fresca Bontà In Tavola" class="gastronomia-banner-img" />
+      <div class="gastronomia-banner-glass-card section-header light">
+        <div class="section-tag light">Cucina Artigianale &amp; Tradizione</div>
+        <h2 class="section-title">La Gastronomia</h2>
+        <p class="section-desc">Il calore della cucina casalinga e la comodità di piatti pronti d'eccellenza</p>
+        <div class="gastronomia-banner-badge">✦ Banco Fresco Quotidiano &amp; Specialità Artigianali</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="gastronomia-showcase">
+        <!-- FOTO SINISTRA: NUOVA FOTO FRITTI E SFIZIOSITÀ -->
+        <div class="gastronomia-side-col gastronomia-left">
+          <div class="gastronomia-img-frame">
+            <img src="gastronomia-fritti.jpg" alt="Sfiziosità Artigianali, Arancini, Cotolette e Crocchette - Bontà In Tavola" class="gastronomia-img" loading="lazy" />
+            <div class="gastronomia-img-badge">
+              <span>✦ Arancini, Cotolette &amp; Sfiziosità</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- CENTRO: CARD NARRATIVA STILE MOCKUP -->
+        <div class="gastronomia-center-card">
+          <div class="gastronomia-badge-tag">Fatto in Casa &amp; Pronti a Cuocere</div>
+          <h3 class="gastronomia-main-title">Dalla nostra cucina alla tua tavola, ogni giorno con passione.</h3>
+          <p class="gastronomia-lead">
+            Non solo carne scelta: a <strong>Bontà in Tavola da Cristian</strong> trovi ogni giorno un ricco banco gastronomia pensato per chi ama mangiare genuino senza dover passare ore ai fornelli.
+          </p>
+
+          <div class="gastronomia-pillars">
+            <div class="gastronomia-pillar-item">
+              <div class="pillar-icon">🍳</div>
+              <div class="pillar-content">
+                <h4>Fatto in Casa Ogni Mattina</h4>
+                <p>Primi piatti profumati, lasagne caserecce, contorni di verdure fresche di stagione, arancini croccanti, cotolette dorate e sfiziosità preparate con ingredienti sani e naturali.</p>
+              </div>
+            </div>
+
+            <div class="gastronomia-pillar-item">
+              <div class="pillar-icon">🥩</div>
+              <div class="pillar-content">
+                <h4>Pronti a Cuocere Facili &amp; Veloci</h4>
+                <p>Arrosti legati a mano, coniglio e cappone ripieni, polpette al sugo, brasati al vino e spiedini gourmet: basta accendere il forno o la padella per una cena degna del miglior ristorante.</p>
+              </div>
+            </div>
+
+            <div class="gastronomia-pillar-item">
+              <div class="pillar-icon">🍷</div>
+              <div class="pillar-content">
+                <h4>Specialità Bresciane Autentiche</h4>
+                <p>Capù tradizionali saporiti, carni brasate a lenta cottura e ricette tipiche per pranzi in famiglia, cene con amici o la tua pausa pranzo quotidiana a Brescia.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="gastronomia-cta-wrap">
+            <a href="https://wa.me/393339201277?text=Buongiorno%20Cristian%2C%20vorrei%20conoscere%20i%20piatti%20di%20gastronomia%20del%20giorno%20e%20ordinare" target="_blank" rel="noopener noreferrer" class="btn btn-primary gastronomia-cta" title="Ordina su WhatsApp: 333 920 1277">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+              <span>Ordina o Richiedi il Menù del Giorno</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- FOTO DESTRA: SPECIALITÀ COTTE & PRONTI A CUOCERE -->
+        <div class="gastronomia-side-col gastronomia-right">
+          <div class="gastronomia-img-frame">
+            <img src="gastronomia-banco-2.jpg" alt="Specialità Cotte e Pronti a Cuocere Gastronomia Cristian" class="gastronomia-img" loading="lazy" />
+            <div class="gastronomia-img-badge">
+              <span>✦ Specialità &amp; Pronti a Cuocere</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RECENSIONI -->
+  <section class="recensioni" id="recensioni">
+    <div class="container">
+      <div class="section-header light">
+        <div class="section-tag light">Cosa Dicono di Noi</div>
+        <h2 class="section-title">Le Recensioni dei Clienti</h2>
+        <p class="section-desc light">La fiducia dei nostri clienti è la nostra ricompensa più grande</p>
+
+        <!-- GOOGLE REVIEWS SUMMARY & CTA LINK -->
+        <div class="google-reviews-banner">
+          <div class="google-summary-box">
+            <div class="google-icon-wrapper">
+              <svg viewBox="0 0 24 24" width="34" height="34" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/>
+                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/>
+              </svg>
+            </div>
+            <div class="google-summary-info">
+              <div class="google-rating-row">
+                <span class="google-rating-num">5.0</span>
+                <span class="google-stars">★★★★★</span>
+              </div>
+              <span class="google-rating-label">Valutazione 5.0 su 5 stelle · Recensioni Google</span>
+            </div>
+          </div>
+
+          <a href="https://www.google.com/maps/search/?api=1&query=Bont%C3%A0+In+Tavola+da+Cristian+Viale+del+Piave+163+Brescia" target="_blank" rel="noopener" class="btn-write-review">
+            <svg viewBox="0 0 24 24" width="20" height="20" xmlns="http://www.w3.org/2000/svg">
+              <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+              <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+              <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/>
+              <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/>
+            </svg>
+            <span>Scrivi una recensione su Google</span>
+            <svg class="btn-external-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="reviews-ticker-wrapper">
+      <div class="reviews-ticker" id="reviewsTicker">
+        <!-- Set 1 -->
+        <div class="review-card">
+          <div class="review-card-top">
+            <div class="review-rating-wrap">
+              <span class="review-stars">★★★★★</span>
+              <span class="review-stars-text">5.0 su 5 stelle</span>
+            </div>
+            <div class="review-google-badge">
+              <svg viewBox="0 0 24 24" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/>
+                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/>
+              </svg>
+              <span>Google</span>
+            </div>
+          </div>
+          <p class="review-text">"Prodotti eccezionali! La carne è sempre freschissima e il personale è gentilissimo. Cristian conosce il suo mestiere."</p>
+          <div class="review-author">
+            <div class="review-avatar">M</div>
+            <div><strong>Marco R.</strong><span>Recensione su Google</span></div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card-top">
+            <div class="review-rating-wrap">
+              <span class="review-stars">★★★★★</span>
+              <span class="review-stars-text">5.0 su 5 stelle</span>
+            </div>
+            <div class="review-google-badge">
+              <svg viewBox="0 0 24 24" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/>
+                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/>
+              </svg>
+              <span>Google</span>
+            </div>
+          </div>
+          <p class="review-text">"La migliore macelleria di Brescia senza dubbio. I salumi sono una delizia, li consiglio a tutti. Prezzi onesti."</p>
+          <div class="review-author">
+            <div class="review-avatar">L</div>
+            <div><strong>Laura B.</strong><span>Recensione su Google</span></div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card-top">
+            <div class="review-rating-wrap">
+              <span class="review-stars">★★★★★</span>
+              <span class="review-stars-text">5.0 su 5 stelle</span>
+            </div>
+            <div class="review-google-badge">
+              <svg viewBox="0 0 24 24" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/>
+                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/>
+              </svg>
+              <span>Google</span>
+            </div>
+          </div>
+          <p class="review-text">"Fantastica! Ho ordinato un tagliere per una festa e tutti gli ospiti erano entusiasti. Qualità superiore e presentazione impeccabile."</p>
+          <div class="review-author">
+            <div class="review-avatar">G</div>
+            <div><strong>Giovanni M.</strong><span>Recensione su Google</span></div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card-top">
+            <div class="review-rating-wrap">
+              <span class="review-stars">★★★★★</span>
+              <span class="review-stars-text">5.0 su 5 stelle</span>
+            </div>
+            <div class="review-google-badge">
+              <svg viewBox="0 0 24 24" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/>
+                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/>
+              </svg>
+              <span>Google</span>
+            </div>
+          </div>
+          <p class="review-text">"La gastronomia è straordinaria. I piatti pronti sembrano fatti in casa, gustosi e abbondanti. Ci torno ogni settimana."</p>
+          <div class="review-author">
+            <div class="review-avatar">A</div>
+            <div><strong>Alessia F.</strong><span>Recensione su Google</span></div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card-top">
+            <div class="review-rating-wrap">
+              <span class="review-stars">★★★★★</span>
+              <span class="review-stars-text">5.0 su 5 stelle</span>
+            </div>
+            <div class="review-google-badge">
+              <svg viewBox="0 0 24 24" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/>
+                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/>
+              </svg>
+              <span>Google</span>
+            </div>
+          </div>
+          <p class="review-text">"Cristian è un professionista vero. Sa sempre cosa consigliarti e la qualità dei prodotti è sempre costante. Top!"</p>
+          <div class="review-author">
+            <div class="review-avatar">R</div>
+            <div><strong>Roberto C.</strong><span>Recensione su Google</span></div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card-top">
+            <div class="review-rating-wrap">
+              <span class="review-stars">★★★★★</span>
+              <span class="review-stars-text">5.0 su 5 stelle</span>
+            </div>
+            <div class="review-google-badge">
+              <svg viewBox="0 0 24 24" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/>
+                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/>
+              </svg>
+              <span>Google</span>
+            </div>
+          </div>
+          <p class="review-text">"Ho scoperto questa macelleria per caso e non posso più farne a meno. Salumi artigianali di alta qualità, selezionati con cura."</p>
+          <div class="review-author">
+            <div class="review-avatar">S</div>
+            <div><strong>Silvia T.</strong><span>Recensione su Google</span></div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card-top">
+            <div class="review-rating-wrap">
+              <span class="review-stars">★★★★★</span>
+              <span class="review-stars-text">5.0 su 5 stelle</span>
+            </div>
+            <div class="review-google-badge">
+              <svg viewBox="0 0 24 24" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/>
+                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/>
+              </svg>
+              <span>Google</span>
+            </div>
+          </div>
+          <p class="review-text">"Ottimo servizio, prodotti sempre freschi. Ordino sempre i piatti pronti per la settimana e non mi hanno mai deluso."</p>
+          <div class="review-author">
+            <div class="review-avatar">P</div>
+            <div><strong>Paolo V.</strong><span>Recensione su Google</span></div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card-top">
+            <div class="review-rating-wrap">
+              <span class="review-stars">★★★★★</span>
+              <span class="review-stars-text">5.0 su 5 stelle</span>
+            </div>
+            <div class="review-google-badge">
+              <svg viewBox="0 0 24 24" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/>
+                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/>
+              </svg>
+              <span>Google</span>
+            </div>
+          </div>
+          <p class="review-text">"Un negozio di altri tempi nel senso buono. Attenzione al cliente, qualità garantita e un ambiente sempre pulito."</p>
+          <div class="review-author">
+            <div class="review-avatar">C</div>
+            <div><strong>Carla M.</strong><span>Recensione su Google</span></div>
+          </div>
+        </div>
+
+        <!-- Set 2 (duplicati per ticker infinito) -->
+        <div class="review-card">
+          <div class="review-card-top">
+            <div class="review-rating-wrap">
+              <span class="review-stars">★★★★★</span>
+              <span class="review-stars-text">5.0 su 5 stelle</span>
+            </div>
+            <div class="review-google-badge">
+              <svg viewBox="0 0 24 24" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/>
+                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/>
+              </svg>
+              <span>Google</span>
+            </div>
+          </div>
+          <p class="review-text">"Prodotti eccezionali! La carne è sempre freschissima e il personale è gentilissimo. Cristian conosce il suo mestiere."</p>
+          <div class="review-author">
+            <div class="review-avatar">M</div>
+            <div><strong>Marco R.</strong><span>Recensione su Google</span></div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card-top">
+            <div class="review-rating-wrap">
+              <span class="review-stars">★★★★★</span>
+              <span class="review-stars-text">5.0 su 5 stelle</span>
+            </div>
+            <div class="review-google-badge">
+              <svg viewBox="0 0 24 24" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/>
+                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/>
+              </svg>
+              <span>Google</span>
+            </div>
+          </div>
+          <p class="review-text">"La migliore macelleria di Brescia senza dubbio. I salumi sono una delizia, li consiglio a tutti. Prezzi onesti."</p>
+          <div class="review-author">
+            <div class="review-avatar">L</div>
+            <div><strong>Laura B.</strong><span>Recensione su Google</span></div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card-top">
+            <div class="review-rating-wrap">
+              <span class="review-stars">★★★★★</span>
+              <span class="review-stars-text">5.0 su 5 stelle</span>
+            </div>
+            <div class="review-google-badge">
+              <svg viewBox="0 0 24 24" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/>
+                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/>
+              </svg>
+              <span>Google</span>
+            </div>
+          </div>
+          <p class="review-text">"Fantastica! Ho ordinato un tagliere per una festa e tutti gli ospiti erano entusiasti. Qualità superiore e presentazione impeccabile."</p>
+          <div class="review-author">
+            <div class="review-avatar">G</div>
+            <div><strong>Giovanni M.</strong><span>Recensione su Google</span></div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card-top">
+            <div class="review-rating-wrap">
+              <span class="review-stars">★★★★★</span>
+              <span class="review-stars-text">5.0 su 5 stelle</span>
+            </div>
+            <div class="review-google-badge">
+              <svg viewBox="0 0 24 24" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/>
+                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/>
+              </svg>
+              <span>Google</span>
+            </div>
+          </div>
+          <p class="review-text">"La gastronomia è straordinaria. I piatti pronti sembrano fatti in casa, gustosi e abbondanti. Ci torno ogni settimana."</p>
+          <div class="review-author">
+            <div class="review-avatar">A</div>
+            <div><strong>Alessia F.</strong><span>Recensione su Google</span></div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card-top">
+            <div class="review-rating-wrap">
+              <span class="review-stars">★★★★★</span>
+              <span class="review-stars-text">5.0 su 5 stelle</span>
+            </div>
+            <div class="review-google-badge">
+              <svg viewBox="0 0 24 24" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/>
+                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/>
+              </svg>
+              <span>Google</span>
+            </div>
+          </div>
+          <p class="review-text">"Cristian è un professionista vero. Sa sempre cosa consigliarti e la qualità dei prodotti è sempre costante. Top!"</p>
+          <div class="review-author">
+            <div class="review-avatar">R</div>
+            <div><strong>Roberto C.</strong><span>Recensione su Google</span></div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card-top">
+            <div class="review-rating-wrap">
+              <span class="review-stars">★★★★★</span>
+              <span class="review-stars-text">5.0 su 5 stelle</span>
+            </div>
+            <div class="review-google-badge">
+              <svg viewBox="0 0 24 24" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/>
+                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/>
+              </svg>
+              <span>Google</span>
+            </div>
+          </div>
+          <p class="review-text">"Ho scoperto questa macelleria per caso e non posso più farne a meno. Salumi artigianali di alta qualità, selezionati con cura."</p>
+          <div class="review-author">
+            <div class="review-avatar">S</div>
+            <div><strong>Silvia T.</strong><span>Recensione su Google</span></div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card-top">
+            <div class="review-rating-wrap">
+              <span class="review-stars">★★★★★</span>
+              <span class="review-stars-text">5.0 su 5 stelle</span>
+            </div>
+            <div class="review-google-badge">
+              <svg viewBox="0 0 24 24" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/>
+                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/>
+              </svg>
+              <span>Google</span>
+            </div>
+          </div>
+          <p class="review-text">"Ottimo servizio, prodotti sempre freschi. Ordino sempre i piatti pronti per la settimana e non mi hanno mai deluso."</p>
+          <div class="review-author">
+            <div class="review-avatar">P</div>
+            <div><strong>Paolo V.</strong><span>Recensione su Google</span></div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card-top">
+            <div class="review-rating-wrap">
+              <span class="review-stars">★★★★★</span>
+              <span class="review-stars-text">5.0 su 5 stelle</span>
+            </div>
+            <div class="review-google-badge">
+              <svg viewBox="0 0 24 24" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/>
+                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/>
+              </svg>
+              <span>Google</span>
+            </div>
+          </div>
+          <p class="review-text">"Un negozio di altri tempi nel senso buono. Attenzione al cliente, qualità garantita e un ambiente sempre pulito."</p>
+          <div class="review-author">
+            <div class="review-avatar">C</div>
+            <div><strong>Carla M.</strong><span>Recensione su Google</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATTI -->
+  <section class="contatti" id="contatti">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Dove Siamo</div>
+        <h2 class="section-title">Contatti</h2>
+        <p class="section-desc">Vieni a trovarci nel cuore di Brescia</p>
+      </div>
+      <div class="contatti-layout">
+        <div class="contatti-info">
+          <div class="info-block">
+            <div class="info-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div class="info-content">
+              <h4>Indirizzo</h4>
+              <p>Viale del Piave, 163<br/>25123 Brescia BS</p>
+              <a href="https://maps.google.com/?q=Viale+del+Piave+163+Brescia" target="_blank" class="info-link">Apri in Google Maps →</a>
+            </div>
+          </div>
+          <div class="info-block">
+            <div class="info-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.35 2 2 0 0 1 3.58 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div class="info-content">
+              <h4>Telefono &amp; WhatsApp</h4>
+              <p>Fisso: <a href="tel:030364685"><strong>030 364685</strong></a></p>
+              <p>WhatsApp: <a href="https://wa.me/393339201277" target="_blank" rel="noopener noreferrer" style="color: #25d366; font-weight: 700;"><strong>333 920 1277</strong></a></p>
+              <div style="display: flex; gap: 14px; margin-top: 6px; flex-wrap: wrap;">
+                <a href="tel:030364685" class="info-link">Chiama →</a>
+                <a href="https://wa.me/393339201277" target="_blank" rel="noopener noreferrer" class="info-link" style="color: #25d366;">Scrivi su WhatsApp →</a>
+              </div>
+            </div>
+          </div>
+          <div class="info-block">
+            <div class="info-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div class="info-content">
+              <h4>Orari di Apertura</h4>
+              <div class="orari-table">
+                <div class="orario-row"><span class="giorno">Lunedì</span><span class="orario">07:00 – 13:00</span></div>
+                <div class="orario-row"><span class="giorno">Martedì – Venerdì</span><span class="orario">07:00 – 13:00 · 15:30 – 19:15</span></div>
+                <div class="orario-row"><span class="giorno">Sabato</span><span class="orario">07:00 – 13:00 · 15:30 – 19:15</span></div>
+                <div class="orario-row chiuso"><span class="giorno">Domenica</span><span class="orario badge-chiuso">Chiuso</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contatti-map">
+          <iframe title="Posizione Bontà In Tavola da Cristian" src="https://maps.google.com/maps?q=Viale+del+Piave+163+Brescia+25123&t=&z=16&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <div class="social-section">
+        <h3 class="social-title">Seguici sui Social</h3>
+        <div class="social-links">
+          <a href="https://www.facebook.com/gastronomiadacristian" target="_blank" class="social-btn facebook" aria-label="Seguici su Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            <span>Facebook</span>
+          </a>
+          <a href="https://www.instagram.com/bonta_in_tavola/" target="_blank" class="social-btn instagram" aria-label="Seguici su Instagram">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            <span>Instagram</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <!-- Colonna 1: Brand Logo, Descrizione & Social -->
+      <div class="footer-col footer-col-brand">
+        <a href="#home" class="footer-brand-link">
+          <div class="footer-brand-wrap">
+            <img src="bonta-in-tavola-text.png" alt="Bontà In Tavola" class="footer-brand-text-img" />
+            <span class="footer-gold-text">da Cristian</span>
+          </div>
+        </a>
+        <p class="footer-desc">
+          Dal cuore di Brescia, la migliore tradizione di macelleria e gastronomia artigianale. Carni scelte da allevamenti certificati, preparati gourmet, formaggi tipici e sapori genuini per la tua tavola ogni giorno.
+        </p>
+        <div class="footer-social-wrap">
+          <span class="footer-social-label">Seguici:</span>
+          <div class="footer-social-links">
+            <a href="https://www.facebook.com/gastronomiadacristian" target="_blank" rel="noopener noreferrer" class="footer-social-btn facebook" aria-label="Seguici su Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/bonta_in_tavola/" target="_blank" rel="noopener noreferrer" class="footer-social-btn instagram" aria-label="Seguici su Instagram">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="https://wa.me/393339201277" target="_blank" rel="noopener noreferrer" class="footer-social-btn whatsapp" aria-label="Contattaci su WhatsApp: 333 920 1277">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Colonna 2: Navigazione Rapida -->
+      <div class="footer-col footer-col-nav">
+        <h4 class="footer-col-title">Navigazione</h4>
+        <ul class="footer-nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#chi-siamo">Chi Siamo</a></li>
+          <li><a href="#negozio">Il Nostro Negozio</a></li>
+          <li><a href="#gastronomia">La Gastronomia</a></li>
+          <li><a href="#recensioni">Recensioni</a></li>
+          <li><a href="#contatti">Contatti</a></li>
+        </ul>
+      </div>
+
+      <!-- Colonna 3: Contatti & Orari -->
+      <div class="footer-col footer-col-contact">
+        <h4 class="footer-col-title">Contatti</h4>
+        <ul class="footer-contact-list">
+          <li>
+            <svg class="footer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Viale del Piave, 163<br/>25123 Brescia (BS)</span>
+          </li>
+          <li>
+            <svg class="footer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <div>
+              <a href="tel:030364685">030 364685</a> (Fisso)<br/>
+              <a href="https://wa.me/393339201277" target="_blank" rel="noopener noreferrer" style="color: #25d366; font-weight: 600;">333 920 1277</a> (WhatsApp)
+            </div>
+          </li>
+          <li>
+            <svg class="footer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <div>
+              <strong>Lun – Sab:</strong> 07:30 - 13:00 / 16:00 - 19:30<br/>
+              <span class="footer-closed">Mer. pom. e Dom: Chiuso</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Barra Inferiore con Credit by Leo con Cuore e Legal -->
+    <div class="footer-bottom">
+      <div class="footer-bottom-inner">
+        <p class="footer-copy">
+          &copy; 2026 Bontà in Tavola da Cristian. Tutti i diritti riservati.
+        </p>
+        <p class="footer-credit">
+          Fatto con <span class="footer-heart" aria-label="cuore">❤️</span> by Leo
+        </p>
+        <div class="footer-legal">
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <span class="dot">·</span>
+          <a href="cookie-policy.html">Cookie Policy</a>
+          <span class="dot">·</span>
+          <a href="termini-servizio.html">Termini e Servizio</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       COOKIE BANNER
+       ============================================================ -->
+  <div class="cookie-banner" id="cookieBanner" role="dialog" aria-label="Consenso cookie" aria-live="polite">
+    <div class="cookie-banner-inner">
+      <div class="cookie-banner-left">
+        <div class="cookie-banner-icon">🍪</div>
+        <div class="cookie-banner-text">
+          <h3>Utilizziamo i Cookie</h3>
+          <p>Questo sito usa cookie tecnici necessari al funzionamento e, con il tuo consenso, cookie analitici per migliorare la tua esperienza. Puoi scegliere quali accettare. Per maggiori informazioni leggi la nostra <a href="cookie-policy.html" target="_blank">Cookie Policy</a>.</p>
+        </div>
+      </div>
+      <div class="cookie-banner-actions">
+        <button class="cookie-btn cookie-btn-primary" id="cookieAcceptAll" onclick="setCookieConsent('all')">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+          Accetta tutti
+        </button>
+        <button class="cookie-btn cookie-btn-technical" id="cookieTechnical" onclick="setCookieConsent('technical')">
+          Solo tecnici
+        </button>
+        <button class="cookie-btn cookie-btn-reject" id="cookieReject" onclick="setCookieConsent('none')">
+          Rifiuta
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- PULSANTE FISSO GESTIONE COOKIE (In basso a sinistra) -->
+  <button class="cookie-floating-btn" id="cookieManageBtn" onclick="openCookieBanner()" aria-label="Gestione Consenso Cookie" title="Gestisci preferenze cookie">
+    <span class="cookie-btn-icon">🍪</span>
+    <span class="cookie-btn-text">Gestione Cookie</span>
+  </button>
+
+  <!-- PULSANTE FISSO WHATSAPP (In basso a destra) -->
+  <a href="https://wa.me/393339201277?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20vostri%20prodotti" target="_blank" rel="noopener noreferrer" class="whatsapp-floating-btn" aria-label="Contattaci su WhatsApp: 333 920 1277" title="Scrivici su WhatsApp: 333 920 1277">
+    <div class="whatsapp-pulse" aria-hidden="true"></div>
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+    </svg>
+    <span class="whatsapp-tooltip">Chatta con noi</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
