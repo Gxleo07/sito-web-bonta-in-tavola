@@ -4,3 +4,7 @@
   [plugins.inputs]
     baseUrl = "https://bontaintavola.netlify.app"
     buildDir = "."
+    exclude = [
+      "**/google*.html",
+      "google*.html"
+    ]
